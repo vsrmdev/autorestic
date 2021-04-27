@@ -5,6 +5,7 @@ class Autorestic < Formula
     sha256 "cb3b6614aa4ca7f56192a9d9cfbd46acd8abdad2338cf2f3e2496a859d78f905"
     license "Apache-2.0"
     head "https://github.com/vsrmdev/autorestic.git"
+    bottle :unneeded
   
     depends_on "go" => :build
   
